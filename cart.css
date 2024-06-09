@@ -1,0 +1,80 @@
+/* Add styles for the cart page */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .cart_content {
+    text-align: center;
+  }
+  
+  .cart_content img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .cart_content a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .cart_content p {
+    margin-bottom: 5px;
+  }
+  
+  .btn.cart-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn.cart-btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  .cart-totals {
+    margin-top: 20px;
+  }
+  
+  .cart-totals p {
+    margin-bottom: 5px;
+  }
+  
+  .checkout-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .checkout-buttons a {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .checkout-buttons a:hover {
+    background-color: #3e8e41;
+  }
+  

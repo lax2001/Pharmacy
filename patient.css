@@ -1,0 +1,269 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+     display: flex;
+    background-color: #a2bcf5;
+    /* background-image: url(doctor.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; */
+    
+}
+ /* header */
+ .navbar {  
+    top: 0px;
+   margin-left: 0%;
+    display: flex;
+    background-color: #5a8af1; 
+    border: #232836;
+    border-bottom: 2px solid #049df6;
+ 
+    overflow: hidden;
+    align-items: center;
+    padding: 14px 10px;
+    justify-content: space-evenly; 
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    
+  }
+  
+  .company_name {
+    margin-left: 15px;
+    color: #012735;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+  .nav_content {
+    display: flex;
+      margin-left: auto;
+      margin-right: 0;
+     
+  }
+  
+  .nav_content a {
+    text-align: center;
+    text-decoration: none;
+    color: #111111;
+    padding-left: 5px;
+    padding-right: 8px; 
+    margin-right: 20px;
+  }
+  
+  .cart_content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+  }
+  
+  .cart_content p{
+    color: #0e0d0d;
+    margin-right: 20px;
+  }
+  /* form */
+.container{
+    margin-left: 17%;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    column-gap: 10px;
+   }
+  
+.form{ 
+    position: absolute;
+    max-width: 500px;
+    width: 100%;
+    padding: 5px;
+    border-radius: 12px;
+    background: #FFF;
+    box-shadow: 0 5px 10px rgb(0, 0,0.1);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header{
+    font-size: 20px;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+}
+form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+    margin-top: 12px;
+    
+}
+.form .field{ 
+  padding-left:15px ;
+   padding-right: 15px;
+    position: relative;
+    height: 50px;
+    width: calc(50% - 10px); /* Calculate width to occupy half the container with some spacing */
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+    border-radius: 6px;
+}
+
+.field input,
+.field button
+{
+  
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 6px;
+}
+
+
+.input-field input::-webkit-inner-spin-button
+.input-field input::-webkit-outer-spin-button{
+    display: flex;
+    
+}
+
+.field input{
+    outline: none;
+    padding: 0 5px;
+    border: 1px solid#CACACA;
+}
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.field button{
+    color: black;
+    background-color:  #5a8af1;
+    transition: all 0.3s ease;
+    cursor: pointer;  transition: all 0.4s ease;
+
+}
+
+.field button:hover{
+    background-color: #635fb5;
+       
+    
+}
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400;
+    color: #232836;
+}
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+.form-content a:hover{
+    text-decoration: underline;
+}
+
+textarea {
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    border-radius: 4px;
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid#CACACA;
+   
+  }
+
+@media screen and (max-width: 400px) {
+    .form{
+        padding: 10px 10px;
+    }
+    
+
+}
+ h4{
+    font-size: 1.25rem;
+    color:black;
+    font-weight: 500;
+
+ }
+ .side_image { margin-top: 13%;
+    margin-left: 10%;
+    position: relative;
+    margin-bottom: 20px;  
+    max-width: 50%; 
+    height: 20%;/* Limit width to 50% of the container */
+  
+  
+    /* Add some space between sections */
+  }
+  @media (min-width: 678px){
+  .side_image {
+    max-width: 60%; /* Adjust width for larger screens if needed */
+    margin-bottom: 0; /* Remove margin bottom for larger screens */
+  }}
+  
+   .side_image img {
+    width: 100%;
+    height: auto;
+   
+
+
+  }
+
+    
+
+
+
+    /* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0; /* Adjust padding to reduce height */
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    line-height: 1.3; /* Adjust line-height for better readability */
+  }
+  
+  footer  i{
+    margin: 10px ;
+    cursor: pointer;
+  }
+
+ 
+
+
+
+.item{
+	border-radius: 20px;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+}
+.gender{
+  border-radius: 20px;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
